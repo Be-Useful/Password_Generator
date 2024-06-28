@@ -81,7 +81,7 @@ async function copyContent(){
     try {
         await navigator.clipboard.writeText(passwordDisplay.value);
         copyMsg.innerText="copied";
-        copyMsg.style.color = "Yellow"
+        copyMsg.style.color = "Yellow";
     }
     catch(e) {
         copyMsg.innnerText="failed";
